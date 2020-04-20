@@ -1,7 +1,7 @@
 <?php
 
-  $strAccessToken = "+t5E3u2f0eW3JKhGPyKqGX4M1M6uuvErtuexSZn6D3017/ONS2n+Nqc3KjF37A0K4tv3QZ0BD6kyrzoCXmKa+L2ys817BnmeTwqXPujiaX9+yEpjMBxT2OH60T4W41rZXsUqJ6QidfaesO3AOAb93wdB04t89/1O/w1cDnyilFU=";
-  
+  $strAccessToken = "i+Itl8bVO5Aklntbzz4S/YhlfsQmkQcBRt5xQDQ3jwDjQyLTx2NrcucvETLLioS++vG50MT01BZmVvc1tLp0Lr+iyiIAiL0eHr2q5y/pTs/35gEjr2OTr14t+V31M/pdHjgCfjLyCPuH0dxtIdfxwgdB04t89/1O/w1cDnyilFU=";
+
   $content = file_get_contents('php://input');
   $arrJson = json_decode($content, true);
 
@@ -19,9 +19,9 @@
   $data = json_decode($json);
   $isData=sizeof($data);
 
-  if (strpos($_msg, 'H.E.L.E.N') !== false) 
+  if (strpos($_msg, 'H.E.L.E.N') !== false)
   {
-    if (strpos($_msg, 'H.E.L.E.N') !== false) 
+    if (strpos($_msg, 'H.E.L.E.N') !== false)
     {
       $x_tra = str_replace("H.E.L.E.N","", $_msg);
       $pieces = explode("|", $x_tra);
