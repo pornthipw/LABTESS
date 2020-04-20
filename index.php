@@ -5,6 +5,6 @@
 	<title>Document</title>
 </head>
 <body>
-	<h1>Welcome Heroku test</h1>
+	<h1>Welcome Heroku nook test</h1>
 </body>
 </html>
